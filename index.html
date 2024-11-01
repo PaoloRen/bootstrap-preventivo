@@ -43,22 +43,22 @@
           <div class="col-12 col-lg-7"><!--sezione form-->
             <h4>Richiesta Preventivo</h4>
             <span>Compila il form per richiedere un preventivo per i nostri servizi di sviluppo.</span>
-           <form>
+           <form action="#" id="datiutente">
             <div class="mb-3 mt-2">
-              <label for="nome" class="form-label">nome</label>
-              <input type="text" class="form-control" id="nomeutente">
+              <label for="nomeutente" class="form-label">nome</label>
+              <input  type="text" class="form-control" id="nomeutente">
             </div>
             <div class="mb-3">
-              <label for="cognome" class="form-label">cognome</label>
-              <input type="text" class="form-control" id="cognomeutente">
+              <label for="cognomeutente" class="form-label">cognome</label>
+              <input  type="text" class="form-control" id="cognomeutente">
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="emailutente">
+              <label for="emailutente" class="form-label">Email</label>
+              <input  type="email" class="form-control" id="emailutente">
             </div>
             <div class="mb-3">
               <label for="tipodilavoro" class="form-label">Tipo di Lavoro</label>
-              <select class="form-select" aria-label="Default select example">
+              <select id="tipodilavoro" class="form-select" aria-label="Default select example">
                 <option selected>Seleziona il tipo di lavoro</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -70,7 +70,7 @@
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="mb-3">
-              <label for="codice promozionale" class="form-label">Codice promozionale (opzionale)</label>
+              <label for="codicepromozionale" class="form-label">Codice promozionale (opzionale)</label>
               <input type="email" class="form-control" id="codicepromozionale">
             </div>
             <div class="mb-3 form-check">
@@ -93,8 +93,8 @@
           </form>
          </div>
          <div class="container col-lg-4">          
-          <div class="card col-lg-4" style="width: 300px;"><!--sezione contatti-->
-            <img src="" class="card-img-top" alt="" style="width: 300px; height: 200px;">
+          <div class="card col-lg-4 overflow-hidden" style="width: 300px;" ><!--sezione contatti-->
+            <img src="https://factor.bg/userfiles/categoryimages/original_image_b627452402079d9651fb5fe8ef23cd41.jpg" class="card-img-top" alt="" style="width: 300px; height: 200px;">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                   <h6>I nostri contatti</h6>
@@ -108,7 +108,6 @@
           </div>
           </div>
         </div>
-      </div>
     </main>
     <footer>
       <div class="container bg-dark p-3" style="color: white;text-align: center;">© Tutti i diritti riservati</div>
