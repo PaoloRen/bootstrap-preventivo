@@ -15,7 +15,16 @@ const lavori = {
     },
 }
 
+const formPreventivo = document.getElementById('datiutente')
 
+formPreventivo.addEventListener('submit', function(event) {
+    event.preventDefault()
+
+    const prezzoFinale = calcolaPrezzo(trovaPrezzo()).toFixed(2)
+
+    document.getElementById('prezzo').innerHTML = prezzoFinale
+    
+})
 
 
 /**
