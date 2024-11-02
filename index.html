@@ -46,20 +46,20 @@
            <form action="#" id="datiutente">
             <div class="mb-3 mt-2">
               <label for="nomeutente" class="form-label">nome</label>
-              <input  type="text" class="form-control" id="nomeutente">
+              <input  type="text" class="form-control" id="nomeutente" required>
             </div>
             <div class="mb-3">
               <label for="cognomeutente" class="form-label">cognome</label>
-              <input  type="text" class="form-control" id="cognomeutente">
+              <input  type="text" class="form-control" id="cognomeutente" required>
             </div>
             <div class="mb-3">
               <label for="emailutente" class="form-label">Email</label>
-              <input  type="email" class="form-control" id="emailutente">
+              <input  type="email" class="form-control" id="emailutente" required>
             </div>
             <div class="mb-3">
               <label for="tipodilavoro" class="form-label">Tipo di Lavoro</label>
-              <select id="tipodilavoro" class="form-select" aria-label="Default select example">
-                <option selected>Seleziona il tipo di lavoro</option>
+              <select id="tipodilavoro" class="form-select" aria-label="Default select example" required>
+                <option value="">Seleziona il tipo di lavoro</option>
                 <option value="backend">Sviluppo Backend</option>
                 <option value="frontend">Sviluppo Frontend</option>
                 <option value="analisiprogettuale">Analisi Progettuale</option>
@@ -74,7 +74,7 @@
               <input type="text" class="form-control" id="codicepromozionale">
             </div>
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
               <label class="form-check-label" for="exampleCheck1">Accetto la Privacy Policy</label>
             </div>
             <div class="container my-5">
